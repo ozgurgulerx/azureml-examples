@@ -25,9 +25,9 @@ az extension add -n ml -y
 
 ## For backward compatibility - running on old subscription
 # <set_variables>
-GROUP="azureml-examples"
-LOCATION="eastus"
-WORKSPACE="main"
+GROUP="rg-openai"
+LOCATION="westeurope"
+WORKSPACE="2308-workspace-mlops-ozguler"
 # </set_variables>
 
 # If RESOURCE_GROUP_NAME is empty, the az configure is pending.
